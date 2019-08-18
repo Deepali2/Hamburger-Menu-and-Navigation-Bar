@@ -162,3 +162,31 @@
   transform: rotateX(-90deg);
   transform-origin: top;
 }
+
+.bottom-nav {
+  width: 100%;
+  /* Since the top navigation height is 15vh */
+  height: 85vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(images/nav-bg.jpeg) no-repeat 50% -15vh;
+  background-size: cover;
+  position: fixed;
+  bottom: 0;
+  /* transition: bottom 0.4s; */
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+.icon-link {
+  color: #fff;
+  font-size: 60px;
+}
